@@ -1,10 +1,16 @@
 # Kalkulatro saklowania wartosci analogowych procesowe ( 0-27648)
-#
+# Process analog value scaling calculator
 # przykładowo sygnał procesowy 0-27648 skalujemy do zakresu 0-100%
+# for example, the process signal 0-27648 is scaled to the range of 0-100%
 # wartość zmiennej max 100%
+# variable value max 100%
 # wartość min zmiennej 0%
+# minimum value of the variable 0%
 # max wartość procesowa 27648
+# max process value 27648
 # min wartość procesowa 0
+# min process value 0
+# --------------------------------------
 # y = (y1-y0)/(x1-x0) * (x - x0) + y0
 # --------------------------------------
 
